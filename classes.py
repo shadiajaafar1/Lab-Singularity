@@ -1,5 +1,5 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 cols = ["PAC_HOS", "SEXO", "Municipio_ocurrencia", "CON_FIN", "FEC_NOT", "ANO","EDAD", "Departamento_ocurrencia"] 
 datos = pd.read_excel("Dengue_todos.xlsx", usecols=cols)
